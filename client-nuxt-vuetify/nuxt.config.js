@@ -2,6 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
+  // mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -14,13 +15,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      ,
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'},
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.css'},     
+      
     ]
   },
   /*
@@ -43,16 +41,7 @@ export default {
   modules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/apollo',
-
-    // 'nuxt-validate', {
-    //   lang: 'es',
-    //   nuxti18n: {
-    //     locale: {
-    //       'zh-CN': 'zh_CN'
-    //     }
-    //   }
-    // },
-    
+    'nuxt-validate',        
    ],
   /*
   ** vuetify module configuration

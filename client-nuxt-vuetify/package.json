@@ -20,7 +20,9 @@
     "vue-template-compiler": "^2.6.6"
   },
   "devDependencies": {
+    "cookieparser": "^0.1.0",
     "graphql-tag": "^2.10.1",
+    "js-cookie": "^2.2.0",
     "nodemon": "^1.18.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"

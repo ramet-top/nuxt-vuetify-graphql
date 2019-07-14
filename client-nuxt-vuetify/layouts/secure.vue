@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Nav />
+    <NavAuth />
     <v-content>     
         <nuxt />      
     </v-content>       
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Nav  from "~/components/nav/Nav";
+import NavAuth  from "~/components/nav/NavAuth";
 import Footer  from "~/components/nav/Footer";
 
 export default {
@@ -22,7 +22,7 @@ export default {
     };
   },
   components:{
-    Nav,
+    NavAuth,
     Footer
   }, 
 };

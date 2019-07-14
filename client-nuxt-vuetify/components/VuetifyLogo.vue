@@ -1,4 +1,5 @@
 <template>
+<!-- Logo -->
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
@@ -8,9 +9,12 @@
 
 <style>
 .VuetifyLogo {
-  width: 180px;
+  width: 80px;
   transform: rotateY(560deg);
   animation: turn 3.5s ease-out forwards 1s;
+  margin-block: 20px;
+  /* margin-left: 25%; */
+
 }
 
 @keyframes turn {
